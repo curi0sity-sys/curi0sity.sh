@@ -16,7 +16,7 @@ style = "github-dark"
   info = "Hacking blog"
   description = "Writeups of hackthebox challenges and machines"
   keywords = "blog,developer,personal"
-  avatarurl = "images/avatar.jpg"
+  avatarurl = "/avatar.jpg"
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
