@@ -32,7 +32,14 @@ style = "github-dark"
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
-
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    maxAge = "720h"
+  [caches.assets]
+    dir = ':cacheDir/:project'
+    maxAge = "720h"
+ 
 [taxonomies]
   category = "categories"
   series = "series"
