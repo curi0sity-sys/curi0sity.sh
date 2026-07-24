@@ -14,16 +14,15 @@ style = "github-dark"
 [params]
   author = "curi0sity"
   info = "Hacking blog"
-  description = "2nd sentence"
+  description = "Writeups of hackthebox challenges and machines"
   keywords = "blog,developer,personal"
   avatarurl = "images/avatar.jpg"
-  #gravatar = "john.doe@example.com"
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  since = 2019
+  since = 2026
 
   enableTwemoji = true
 
