@@ -61,7 +61,7 @@ style = "github-dark"
   name = "Compiler"
   icon = "fa-solid fa-gear fa-2x"
   weight = 3
-  url = "https://compiler-project.ast"
+  url = "https://ast-project.app"
 
 # Menu links
 [[menu.main]]
