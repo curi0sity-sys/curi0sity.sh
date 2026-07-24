@@ -52,6 +52,16 @@ style = "github-dark"
   icon = "fa-brands fa-github fa-2x"
   weight = 1
   url = "https://github.com/curi0sity-sys"
+[[params.social]]
+  name = "CV"
+  icon = "fa-regular fa-file fa-2x"
+  weight = 2
+  url = "https://mattijs.id"
+[[params.social]]
+  name = "Compiler"
+  icon = "fa-solid fa-gear fa-2x"
+  weight = 3
+  url = "https://compiler-project.ast"
 
 # Menu links
 [[menu.main]]
