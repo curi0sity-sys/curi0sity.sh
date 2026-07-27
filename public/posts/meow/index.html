@@ -13,19 +13,44 @@
 
 
 <meta name="author" content="curi0sity">
-<meta name="description" content="Writeups of hackthebox challenges and machines">
+<meta name="description" content="
+
+  Nmapping
+  
+    
+    Link to heading
+  
+
+We start the box, and nmap it.
+nmap:
+nmap -sV 10.129.123.103
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-27 12:58 &#43;0200
+Nmap scan report for 10.129.123.103
+Host is up (0.011s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  Linux telnetd
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds
+">
 <meta name="keywords" content="blog,developer,personal">
 
 
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="meow">
-	<meta name="twitter:description" content="Writeups of hackthebox challenges and machines">
+	<meta name="twitter:description" content="Nmapping Link to heading We start the box, and nmap it.
+nmap:
+nmap -sV 10.129.123.103 Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-27 12:58 &#43;0200 Nmap scan report for 10.129.123.103 Host is up (0.011s latency). Not shown: 999 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 23/tcp open telnet Linux telnetd Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds">
 
 <meta property="og:url" content="http://localhost:1313/posts/meow/">
 	<meta property="og:site_name" content="curi0sity">
 	<meta property="og:title" content="meow">
-	<meta property="og:description" content="Writeups of hackthebox challenges and machines">
+	<meta property="og:description" content="Nmapping Link to heading We start the box, and nmap it.
+nmap:
+nmap -sV 10.129.123.103 Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-27 12:58 &#43;0200 Nmap scan report for 10.129.123.103 Host is up (0.011s latency). Not shown: 999 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 23/tcp open telnet Linux telnetd Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="posts">
@@ -144,6 +169,15 @@
             </a>
           </h1>
         </div>
+        
+        <nav class="toc">
+          <nav id="TableOfContents">
+  <ul>
+    <li><a href="#nmapping">Nmapping</a></li>
+  </ul>
+</nav>
+        </nav>
+        
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
@@ -154,7 +188,7 @@
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              0-minute read
+              One-minute read
             </span>
           </div>
           
@@ -171,7 +205,28 @@
 
       <div class="post-content">
         
-        
+        <p><img src="/meow/meow-front.png" alt=""></p>
+<h2 id="nmapping">
+  Nmapping
+  <a class="heading-link" href="#nmapping">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>We start the box, and nmap it.</p>
+<p>nmap:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>nmap -sV 10.129.123.103
+</span></span></code></pre></div><pre tabindex="0"><code class="language-terminaloutput" data-lang="terminaloutput">Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-27 12:58 +0200
+Nmap scan report for 10.129.123.103
+Host is up (0.011s latency).
+Not shown: 999 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  Linux telnetd
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds
+</code></pre>
       </div>
 
 
