@@ -34,3 +34,14 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds
 ```
+
+Telnet is open for business. Let's try to connect to it.
+
+```bash
+telnet 10.129.131.79
+
+root as username, no password required.
+
+```
+
+This gives us instant root access to the box.

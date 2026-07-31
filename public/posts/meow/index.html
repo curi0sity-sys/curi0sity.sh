@@ -34,7 +34,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds
-">
+Telnet is open for business. Let&rsquo;s try to connect to it.">
 <meta name="keywords" content="blog,developer,personal">
 
 
@@ -43,14 +43,14 @@ Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds
 	<meta name="twitter:title" content="meow">
 	<meta name="twitter:description" content="Nmapping Link to heading We start the box, and nmap it.
 nmap:
-nmap -sV 10.129.123.103 Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-27 12:58 &#43;0200 Nmap scan report for 10.129.123.103 Host is up (0.011s latency). Not shown: 999 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 23/tcp open telnet Linux telnetd Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds">
+nmap -sV 10.129.123.103 Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-27 12:58 &#43;0200 Nmap scan report for 10.129.123.103 Host is up (0.011s latency). Not shown: 999 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 23/tcp open telnet Linux telnetd Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds Telnet is open for business. Let’s try to connect to it.">
 
 <meta property="og:url" content="http://localhost:1313/posts/meow/">
 	<meta property="og:site_name" content="curi0sity">
 	<meta property="og:title" content="meow">
 	<meta property="og:description" content="Nmapping Link to heading We start the box, and nmap it.
 nmap:
-nmap -sV 10.129.123.103 Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-27 12:58 &#43;0200 Nmap scan report for 10.129.123.103 Host is up (0.011s latency). Not shown: 999 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 23/tcp open telnet Linux telnetd Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds">
+nmap -sV 10.129.123.103 Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-27 12:58 &#43;0200 Nmap scan report for 10.129.123.103 Host is up (0.011s latency). Not shown: 999 closed tcp ports (conn-refused) PORT STATE SERVICE VERSION 23/tcp open telnet Linux telnetd Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel Service detection performed. Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds Telnet is open for business. Let’s try to connect to it.">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="posts">
@@ -169,15 +169,11 @@ nmap -sV 10.129.123.103 Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-27 12
             </a>
           </h1>
         </div>
-        
-        <nav class="toc">
-          <nav id="TableOfContents">
+        <nav id="TableOfContents">
   <ul>
     <li><a href="#nmapping">Nmapping</a></li>
   </ul>
 </nav>
-        </nav>
-        
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
@@ -226,7 +222,12 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 13.21 seconds
-</code></pre>
+</code></pre><p>Telnet is open for business. Let&rsquo;s try to connect to it.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>telnet 10.129.131.79
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>root as username, no password required.
+</span></span></code></pre></div><p>This gives us instant root access to the box.</p>
+
       </div>
 
 
