@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2026-10-09T13:26:35+02:00
 title = "explosion"
 description = ""
