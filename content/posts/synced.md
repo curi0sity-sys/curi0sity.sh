@@ -1,12 +1,12 @@
 +++ 
 draft = false
 date = 2026-10-09T13:42:41+02:00
-title = ""
+title = "synced"
 description = ""
 slug = ""
 authors = []
 tags = []
-categories = []
+categories = ["starting point"]
 externalLink = ""
 series = []
 +++
